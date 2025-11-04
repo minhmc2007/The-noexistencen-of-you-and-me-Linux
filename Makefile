@@ -1,5 +1,5 @@
 # ===================================================================
-# Final Makefile for "the noexistence of you and me" Linux Distro
+# Makefile for "the noexistence of you and me" Linux Distro
 #
 # This Makefile handles:
 #   - Compiling the init program.
