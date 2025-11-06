@@ -98,6 +98,6 @@ iso: $(INITRAMFS)
 
 # Target to clean up the entire project.
 clean:
-	@echo "  [CLEAN] Removing all compiled files and the output directory..."
-	@rm -f $(INIT_BIN)
+	@echo "  [CLEAN] Removing the output directory..."
+	@echo "  [CLEAN] Note: The 'rootfs/' directory and its contents are not being removed."
 	@rm -rf $(OUT_DIR)
